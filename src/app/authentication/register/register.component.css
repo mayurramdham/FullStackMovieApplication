@@ -1,0 +1,14 @@
+#form2Example3cg {
+  cursor: pointer;
+}
+/* for controlling width */
+.auth-container {
+  max-width: 600px;
+  margin: auto;
+}
+.text-body {
+  color: #fff; /* Example: Set text color to black */
+}
+.text-login {
+  color: #fff;
+}

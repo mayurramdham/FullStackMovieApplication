@@ -1,0 +1,215 @@
+<section
+  class="vh-100 bg-image"
+  style="
+    background-image: url('https://img.freepik.com/free-vector/cinema-background-illustration_1284-11759.jpg?t=st=1737624514~exp=1737628114~hmac=02aedb4f11de292152a35f64e2b8bcc8e86bbe6130ed1aebd82d74162465ecd4&w=740');
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div
+            class="card"
+            style="
+              border-radius: 15px;
+              background-color: rgba(0, 0, 0, 0.75);
+              color: white;
+            "
+          >
+            <div class="card-body p-4">
+              <h2 class="text-uppercase text-center mb-3">Create an Account</h2>
+
+              <form [formGroup]="pateintRegisterForm" (ngSubmit)="onSubmit()">
+                <div class="row">
+                  <!-- First Column -->
+                  <div class="col-md-6">
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="userName"
+                        minlength="2"
+                        maxlength="12"
+                        pattern="[A-Za-z ]*"
+                        placeholder="Enter First Name"
+                        name="userName"
+                        formControlName="userName"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('userName')?.invalid &&
+                          pateintRegisterForm.get('userName')?.touched
+                        "
+                      />
+                      <label for="userName">User Name</label>
+                      <div class="invalid-feedback">
+                        userName length between 2 to 15.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="password"
+                        placeholder="Enter Password"
+                        name="zipcode"
+                        formControlName="password"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('password')?.invalid &&
+                          pateintRegisterForm.get('password')?.touched
+                        "
+                      />
+                      <label for="zipcode">Password</label>
+
+                      <div
+                        class="invalid-feedback"
+                        *ngIf="passwordFormField?.dirty"
+                      >
+                        <span
+                          class="block"
+                          *ngIf="
+                            !passwordFormField?.value?.match('^(?=.*[A-Z])')
+                          "
+                          >At least one uppercase letter.</span
+                        >
+                        <span
+                          class="block"
+                          *ngIf="
+                            !passwordFormField?.value?.match('(?=.*[a-z])')
+                          "
+                          >At least one lowercase letter.</span
+                        >
+                        <span
+                          class="block"
+                          *ngIf="
+                            !passwordFormField?.value?.match('(.*[0-9].*)')
+                          "
+                          >At least one digit.</span
+                        >
+                        <span
+                          class="block"
+                          *ngIf="
+                            !passwordFormField?.value?.match('(?=.*[!@#$%^&*])')
+                          "
+                          >At least one special character.</span
+                        >
+                        <span
+                          class="block"
+                          *ngIf="!passwordFormField?.value?.match('.{8,}')"
+                          >At least 8 characters long.</span
+                        >
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <select
+                        class="form-select"
+                        id="roleId"
+                        formControlName="roleId"
+                      >
+                        <option value="" disabled>Select Role</option>
+                        <option value="1">Admin</option>
+                        <option value="2">User</option>
+                      </select>
+                      <label for="gender">Role</label>
+                      <div class="invalid-feedback">Role is required.</div>
+                    </div>
+                  </div>
+
+                  <!-- Second Column -->
+                  <div class="col-md-6">
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="UserEmail"
+                        class="form-control"
+                        id="userEmail"
+                        placeholder="Enter userEmail"
+                        name="userEmail"
+                        formControlName="userEmail"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('userEmail')?.invalid &&
+                          pateintRegisterForm.get('userEmail')?.touched
+                        "
+                      />
+                      <label for="userEmail">userEmail</label>
+                      <div class="invalid-feedback">
+                        Enter a valid UserEmail address.
+                      </div>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="mobileNumber"
+                        placeholder="Enter mobileNumber Number"
+                        name="mobileNumber"
+                        formControlName="mobileNumber"
+                        maxlength="10"
+                        (input)="validateMobileLength($event)"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('mobileNumber')?.invalid &&
+                          pateintRegisterForm.get('mobileNumber')?.touched
+                        "
+                      />
+                      <label for="mobileNumber">mobileNumber</label>
+                      <div class="invalid-feedback">
+                        Mobile number is required and should be exactly 10
+                        digits.
+                      </div>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="dob"
+                        placeholder="Enter DOB"
+                        name="dateOfBirth"
+                        [max]="todayDate"
+                        formControlName="dateOfBirth"
+                        [class.is-invalid]="
+                          pateintRegisterForm.get('dateOfBirth')?.invalid &&
+                          pateintRegisterForm.get('dateOfBirth')?.touched
+                        "
+                      />
+                      <label for="dateOfBirth">Date of Birth</label>
+
+                      <div class="invalid-feedback">
+                        Date of Birth is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Full-Width Row for Image Upload -->
+
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="submit"
+                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
+                      [disabled]="pateintRegisterForm.invalid"
+                    >
+                      Register
+                    </button>
+                  </div>
+                  <p class="text-center  text-muted mt-2 mb-0">
+                    Already have an account?
+                    <a routerLink="/auth/login" class="fw-bold text-body"
+                      ><u class="text-login">Login here</u></a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if(isLoading){
+<div class="loader-backdrop">
+  <div class="loader"></div>
+</div>
+}

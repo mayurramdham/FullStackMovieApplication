@@ -1,0 +1,72 @@
+#form2Example3cg {
+  cursor: pointer;
+}
+
+.text-login {
+  color: #fff;
+}
+.google-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #ddd;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.google-login-btn img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.google-login-btn:hover {
+  background-color: #f5f5f5;
+  color: rgba(0, 0, 0, 0.774);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.google-login-btn:active {
+  box-shadow: none;
+}
+
+.microsoft-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0061f2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #ddd;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.microsoft-login-btn img {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.microsoft-login-btn:hover {
+  background-color: #0053c1;
+  color: rgba(0, 0, 0, 0.774);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.microsoft-login-btn:active {
+  box-shadow: none;
+}

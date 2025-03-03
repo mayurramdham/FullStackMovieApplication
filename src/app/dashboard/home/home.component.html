@@ -1,0 +1,337 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://mdbcdn.b-cdn.net/wp-content/uploads/2018/06/logo-mdb-jquery-small.png"
+        alt="Logo"
+        height="40"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <form class="d-flex w-100 align-items-center form-search">
+        <input
+          type="text"
+          class="form-control me-2"
+          placeholder="Search for movies"
+          [(ngModel)]="query"
+          name="query"
+          (input)="onSearch()"
+        />
+      </form>
+    </div>
+  </div>
+  <button class="btn btn-danger" (click)="LogOut()">Logout</button>
+</nav>
+
+<!-- Main Section -->
+<div class="main-body">
+  <div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-white">Movies</h2>
+
+      <button
+        *ngIf="currentRole === 'Admin'"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#addMovieModal"
+      >
+        Add Movie
+      </button>
+    </div>
+    <div class="row">
+      <div *ngIf="paginatedMovies.length == 0">No Movies Found</div>
+      <div class="col-md-3" *ngFor="let movie of paginatedMovies">
+        <div class="card">
+          <img
+            [src]="movie.posterImage"
+            class="card-img-top"
+            alt="{{ movie.movieTitle }}"
+            style="cursor: pointer"
+            (click)="playTrailer(movie.movieLink)"
+          />
+          />
+          <div class="card-body">
+            <h5 class="card-title text-danger">{{ movie.movieTitle }}</h5>
+            <p class="card-text text-secondary">
+              Release Year: {{ movie.releaseYear }}
+            </p>
+            <div class="d-flex justify-content-between">
+              <button
+                *ngIf="currentRole === 'Admin'"
+                class="btn btn-primary btn-sm"
+                (click)="openModal(movie)"
+              >
+                Edit
+              </button>
+              <button
+                *ngIf="currentRole === 'Admin'"
+                class="btn btn-danger btn-sm"
+                (click)="onDeleteMovie(movie.movieId)"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <mat-paginator
+        *ngIf="paginatedMovies.length > 0"
+        class="mat-mdc-paginator-container"
+        (page)="pageChangeEvent($event)"
+        [length]="searchResults.length"
+        [pageSize]="pageSize"
+        [pageIndex]="pageIndex"
+        [pageSizeOptions]="[5, 10, 20, 50, 100]"
+        showFirstLastButtons
+      >
+      </mat-paginator>
+    </div>
+  </div>
+</div>
+<!-- <mat-paginator
+  [length]="200"
+  [pageSizeOptions]="[10, 50, 100]"
+  aria-label="Select page"
+>
+</mat-paginator> -->
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="addMovieModal"
+  tabindex="-1"
+  aria-labelledby="addMovieModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addMovieModalLabel">Add Movie</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="movieForm">
+          <div class="mb-3">
+            <label for="movieTitle" class="form-label">Movie Title</label>
+            <input
+              type="text"
+              id="movieTitle"
+              class="form-control"
+              formControlName="movieTitle"
+              [class.is-invalid]="
+                movieForm.get('movieTitle')?.invalid &&
+                movieForm.get('movieTitle')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">MovieTitle is required.</div>
+          </div>
+          <div class="mb-3">
+            <label for="releaseYear" class="form-label">Release Year</label>
+            <input
+              type="number"
+              id="releaseYear"
+              class="form-control"
+              formControlName="releaseYear"
+              (input)="validateReleaseYear($event)"
+              [class.is-invalid]="
+                movieForm.get('releaseYear')?.invalid &&
+                movieForm.get('releaseYear')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">releaseYear is required.</div>
+          </div>
+          <div class="mb-3">
+            <label for="movieTitle" class="form-label">Trailer Link</label>
+            <input
+              type="text"
+              id="movieLink"
+              class="form-control"
+              formControlName="movieLink"
+              [class.is-invalid]="
+                movieForm.get('movieLink')?.invalid &&
+                movieForm.get('movieLink')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">TrailerLink is required.</div>
+          </div>
+          <div class="mb-3">
+            <label for="posterImage" class="form-label">Poster Image</label>
+            <input
+              type="file"
+              accept="image/jfif, image/jpeg, image/png"
+              id="posterImage"
+              name="posterImage"
+              class="form-control"
+              (change)="onFileSelect($event)"
+              [class.is-invalid]="
+                movieForm.get('posterImage')?.invalid &&
+                movieForm.get('posterImage')?.touched
+              "
+              required
+            />
+            <div class="invalid-feedback">posterImage is required.</div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-dismiss="modal"
+          (click)="submitMovie()"
+          [disabled]="movieForm.invalid"
+        >
+          Save Movie
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Edit Movie Modal -->
+<div
+  id="updateMovieModal"
+  class="modal fade"
+  tabindex="-1"
+  aria-labelledby="updateMovieModalLabel"
+  aria-hidden="true"
+  style="display: none"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateMovieModalLabel">Update Movie</h5>
+        <button
+          type="button"
+          class="btn-close"
+          (click)="closeModal()"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="movieForm">
+          <div class="mb-3">
+            <label for="movieTitle" class="form-label">Movie Title</label>
+            <input
+              type="text"
+              id="movieTitle"
+              class="form-control"
+              formControlName="movieTitle"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="releaseYear" class="form-label">Release Year</label>
+            <input
+              type="number"
+              id="releaseYear"
+              class="form-control"
+              formControlName="releaseYear"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="movieTitle" class="form-label">Trailer Link</label>
+            <input
+              type="text"
+              id="movieLink"
+              class="form-control"
+              formControlName="movieLink"
+              [class.is-invalid]="
+                movieForm.get('movieLink')?.invalid &&
+                movieForm.get('movieLink')?.touched
+              "
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="posterImage" class="form-label">Poster Image</label>
+            <input
+              type="file"
+              id="posterImage"
+              accept="image/jfif, image/jpeg, image/png"
+              class="form-control"
+              (change)="onFileSelect($event)"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeModal()">
+          Close
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary"
+          (click)="submitUpdateMovie()"
+        >
+          Save Changes
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Add Trailer Model-->
+<!-- Trailer Modal -->
+<div
+  class="modal fade netflix-modal"
+  tabindex="-1"
+  [ngClass]="{ show: selectedTrailerUrl }"
+  [ngStyle]="{ display: selectedTrailerUrl ? 'block' : 'none' }"
+  (click)="closeTrailer()"
+>
+  <div class="modal-dialog modal-lg" (click)="$event.stopPropagation()">
+    <div class="modal-content">
+      <div class="modal-header netflix-modal-header">
+        <h5 class="modal-title">Trailer</h5>
+        <button
+          type="button"
+          class="btn-close"
+          (click)="closeTrailer()"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body netflix-modal-body">
+        <ng-container *ngIf="selectedTrailerUrl; else noTrailerTemplate">
+          <iframe
+            width="100%"
+            height="500"
+            [src]="selectedTrailerUrl"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </ng-container>
+        <ng-template #noTrailerTemplate>
+          <div class="no-trailer-message text-center p-3">
+            <p class="text-white">Trailer not available</p>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

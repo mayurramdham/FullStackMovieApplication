@@ -1,0 +1,124 @@
+<section
+  class="vh-100 bg-image"
+  style="
+    background-image: url('https://img.freepik.com/free-vector/cinema-background-illustration_1284-11759.jpg?t=st=1737624514~exp=1737628114~hmac=02aedb4f11de292152a35f64e2b8bcc8e86bbe6130ed1aebd82d74162465ecd4&w=740');
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div
+            class="card"
+            style="
+              border-radius: 15px;
+              background-color: rgba(0, 0, 0, 0.75);
+              color: white;
+            "
+          >
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Enter Credentials</h2>
+
+              <form [formGroup]="LoginData">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="userEmail"
+                    placeholder="Enter userEmail"
+                    name="userEmail"
+                    formControlName="userEmail"
+                  />
+                  <label for="userName">Your userEmail</label>
+                  <div
+                    *ngIf="
+                      LoginData.get('userEmail')?.invalid &&
+                      LoginData.get('userEmail')?.touched
+                    "
+                    class="text-danger"
+                  >
+                    userEmail is required.
+                  </div>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Enter password"
+                    name="password"
+                    formControlName="password"
+                  />
+
+                  <label for="password">Password</label>
+
+                  <div
+                    *ngIf="
+                      LoginData.get('password')?.invalid &&
+                      LoginData.get('password')?.touched
+                    "
+                    class="text-danger"
+                  >
+                    Password is required.
+                  </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button
+                    type="submit"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
+                    (click)="loginUser()"
+                    [disabled]="LoginData.invalid"
+                  >
+                    Login
+                  </button>
+                </div>
+
+                <div class="text-center text-muted mt-4 mb-0">
+                  Don't have an account?
+                  <a class="fw-bold text-body" routerLink="/auth/register">
+                    <u class="text-login">Register here</u>
+                  </a>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                  <button class="google-login-btn" (click)="loginWithGoogle()">
+                    <img
+                      src="https://img.icons8.com/color/16/google-logo.png"
+                      alt="Google Logo"
+                    />
+                    Login with Google
+                  </button>
+                </div>
+
+                <!-- Microsoft Login Button (Netflix style) -->
+
+                <div class="d-flex justify-content-center mt-2">
+                  <button
+                    class="microsoft-login-btn"
+                    (click)="loginWithMicrosoft()"
+                  >
+                    <img
+                      class="ms-logo"
+                      src="https://mailmeteor.com/logos/assets/PNG/Microsoft_Logo_256px.png"
+                      alt="Microsoft Logo"
+                    />
+                    Login with Microsoft
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if(isLoading){
+<div class="loader-backdrop">
+  <div class="loader"></div>
+</div>
+}

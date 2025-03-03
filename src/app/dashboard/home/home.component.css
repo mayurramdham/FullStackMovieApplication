@@ -1,0 +1,149 @@
+/* General Styles */
+/* .mat-mdc-paginator-range-actions {
+  color: black;
+  background-color: aliceblue;
+}
+.mat-mdc-paginator-container {
+  color: #ffffff;
+  background-color: black;
+} */
+.main-body {
+  background-color: #252121;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #181818;
+}
+
+.navbar .form-search .form-control {
+  background-color: #333;
+  border: none;
+  color: white;
+  border-radius: 0;
+}
+
+.navbar .form-search .btn-danger {
+  background-color: #e50914;
+  border: none;
+}
+
+.navbar .form-search .btn-danger:hover {
+  background-color: #b00710;
+}
+
+.main-body {
+  padding-top: 20px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #0066ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #004bb5;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #e50914;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #b00710;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.form-search input::placeholder {
+  color: #fff; /* Change placeholder text color */
+
+  opacity: 0.7; /* Adjust opacity */
+}
+
+/* Netflix Modal Styles */
+
+.netflix-modal .modal-dialog {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.netflix-modal .modal-content {
+  background-color: #141414; /* Netflix-like dark background */
+  border: none;
+  border-radius: 8px;
+  color: #e5e5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.netflix-modal .modal-header {
+  border-bottom: 1px solid #333;
+  background-color: #141414;
+  color: #e5e5e5;
+  padding: 1rem 1.5rem;
+}
+
+.netflix-modal .modal-header .modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.btn-close {
+  /* Makes the close button white */
+
+  filter: invert(1);
+}
+
+.netflix-modal .modal-body {
+  background-color: #141414;
+  padding: 0;
+}
+
+.netflix-modal iframe {
+  border: none;
+  border-radius: 8px;
+}
