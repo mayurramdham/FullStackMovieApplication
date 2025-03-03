@@ -1,0 +1,757 @@
+2025-01-28 17:45:23.252 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 17:45:23.779 +05:30 [INF] Now listening on: https://localhost:7059
+2025-01-28 17:45:23.780 +05:30 [INF] Now listening on: http://localhost:5227
+2025-01-28 17:45:23.836 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 17:45:23.838 +05:30 [INF] Hosting environment: Development
+2025-01-28 17:45:23.839 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-01-28 17:45:25.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-01-28 17:45:26.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 719.7231ms
+2025-01-28 17:45:26.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.css - null null
+2025-01-28 17:45:26.092 +05:30 [INF] The file /index.css was not modified
+2025-01-28 17:45:26.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.css - 304 null text/css 20.8002ms
+2025-01-28 17:45:26.167 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-01-28 17:45:26.178 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 13.6609ms
+2025-01-28 17:45:26.192 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 17:45:26.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 22.6122ms
+2025-01-28 17:45:26.222 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-01-28 17:45:26.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.4445ms
+2025-01-28 17:45:26.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-01-28 17:45:26.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.2325ms
+2025-01-28 17:45:51.925 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/loginUser - null null
+2025-01-28 17:45:51.936 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:45:51.939 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/loginUser - 204 null null 16.7052ms
+2025-01-28 17:45:51.944 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/loginUser - application/json 52
+2025-01-28 17:45:52.014 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:45:52.019 +05:30 [INF] Executing endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 17:45:52.042 +05:30 [INF] Route matched with {action = "LoginAgent", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAgent(Domain.Model.LoginDTO) on controller Backend.Controllers.UserController (Backend).
+2025-01-28 17:45:52.137 +05:30 [WRN] Validation failed for login the user: {"UserEmail":"test@gmail.com","Password":"test@123","$type":"LoginDTO"}
+2025-01-28 17:45:52.149 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-28 17:45:52.159 +05:30 [INF] Executed action Backend.Controllers.UserController.LoginAgent (Backend) in 120.6091ms
+2025-01-28 17:45:52.160 +05:30 [INF] Executed endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 17:45:52.162 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/loginUser - 400 null application/json; charset=utf-8 244.3807ms
+2025-01-28 17:45:59.786 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/loginUser - null null
+2025-01-28 17:45:59.790 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:45:59.791 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/loginUser - 204 null null 5.5686ms
+2025-01-28 17:45:59.797 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/loginUser - application/json 52
+2025-01-28 17:45:59.801 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:45:59.802 +05:30 [INF] Executing endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 17:45:59.803 +05:30 [INF] Route matched with {action = "LoginAgent", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAgent(Domain.Model.LoginDTO) on controller Backend.Controllers.UserController (Backend).
+2025-01-28 17:46:01.643 +05:30 [INF] Executed DbCommand (73ms) [Parameters=[@__user_UserEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[UserEmail] = @__user_UserEmail_0
+2025-01-28 17:46:02.594 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__userCheck_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__userCheck_RoleId_0
+2025-01-28 17:46:02.647 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:02.657 +05:30 [INF] Executed action Backend.Controllers.UserController.LoginAgent (Backend) in 3198.439ms
+2025-01-28 17:46:02.663 +05:30 [INF] Executed endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 17:46:02.673 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/loginUser - 200 null application/json; charset=utf-8 3225.4931ms
+2025-01-28 17:46:02.689 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:02.694 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:02.695 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 7.2086ms
+2025-01-28 17:46:02.702 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:02.708 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:02.709 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:02.713 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:02.783 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 17:46:02.795 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:02.800 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 92.5946ms
+2025-01-28 17:46:02.802 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:02.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 115.4786ms
+2025-01-28 17:46:02.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg - null null
+2025-01-28 17:46:02.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif - null null
+2025-01-28 17:46:02.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif - null null
+2025-01-28 17:46:02.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/d856346c-aeb5-4168-b842-801a6e38fcac.jfif - null null
+2025-01-28 17:46:02.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif - null null
+2025-01-28 17:46:02.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif - null null
+2025-01-28 17:46:02.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/1123567d-14fa-4102-8956-92b8bfa63f81.jfif - null null
+2025-01-28 17:46:02.862 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/254480a3-350d-4431-afe3-768ccac1bae5.jfif - null null
+2025-01-28 17:46:02.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/34b625cf-c3a8-41bc-a810-c3c407abae59.jfif - null null
+2025-01-28 17:46:02.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif - null null
+2025-01-28 17:46:02.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/69094741-e3de-44dc-b94e-d77119b129bc.jfif - null null
+2025-01-28 17:46:02.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/876db938-fc6f-4d5d-a402-dfb231ec7965.jfif - null null
+2025-01-28 17:46:02.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg - null null
+2025-01-28 17:46:02.900 +05:30 [INF] Sending file. Request path: '/1123567d-14fa-4102-8956-92b8bfa63f81.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\1123567d-14fa-4102-8956-92b8bfa63f81.jfif'
+2025-01-28 17:46:02.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/1123567d-14fa-4102-8956-92b8bfa63f81.jfif - 200 14336 image/pjpeg 68.2863ms
+2025-01-28 17:46:02.912 +05:30 [INF] Sending file. Request path: '/d856346c-aeb5-4168-b842-801a6e38fcac.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\d856346c-aeb5-4168-b842-801a6e38fcac.jfif'
+2025-01-28 17:46:02.916 +05:30 [INF] Sending file. Request path: '/ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif'
+2025-01-28 17:46:02.916 +05:30 [INF] Sending file. Request path: '/254480a3-350d-4431-afe3-768ccac1bae5.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\254480a3-350d-4431-afe3-768ccac1bae5.jfif'
+2025-01-28 17:46:02.916 +05:30 [INF] Sending file. Request path: '/e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif'
+2025-01-28 17:46:02.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/d856346c-aeb5-4168-b842-801a6e38fcac.jfif - 200 4334 image/pjpeg 105.2284ms
+2025-01-28 17:46:02.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/254480a3-350d-4431-afe3-768ccac1bae5.jfif - 200 10241 image/pjpeg 66.4676ms
+2025-01-28 17:46:02.924 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif - 200 9192 image/pjpeg 100.9797ms
+2025-01-28 17:46:02.921 +05:30 [INF] Sending file. Request path: '/0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif'
+2025-01-28 17:46:02.924 +05:30 [INF] Sending file. Request path: '/1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif'
+2025-01-28 17:46:02.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif - 200 8665 image/pjpeg 114.1791ms
+2025-01-28 17:46:02.954 +05:30 [INF] Sending file. Request path: '/63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif'
+2025-01-28 17:46:02.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif - 200 8665 image/pjpeg 139.9176ms
+2025-01-28 17:46:02.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif - 200 8665 image/pjpeg 122.2111ms
+2025-01-28 17:46:02.963 +05:30 [INF] Sending file. Request path: '/34b625cf-c3a8-41bc-a810-c3c407abae59.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\34b625cf-c3a8-41bc-a810-c3c407abae59.jfif'
+2025-01-28 17:46:02.966 +05:30 [INF] Sending file. Request path: '/876db938-fc6f-4d5d-a402-dfb231ec7965.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\876db938-fc6f-4d5d-a402-dfb231ec7965.jfif'
+2025-01-28 17:46:02.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif - 200 11203 image/pjpeg 83.996ms
+2025-01-28 17:46:02.972 +05:30 [INF] Sending file. Request path: '/69094741-e3de-44dc-b94e-d77119b129bc.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\69094741-e3de-44dc-b94e-d77119b129bc.jfif'
+2025-01-28 17:46:02.972 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/34b625cf-c3a8-41bc-a810-c3c407abae59.jfif - 200 10944 image/pjpeg 94.231ms
+2025-01-28 17:46:02.977 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/876db938-fc6f-4d5d-a402-dfb231ec7965.jfif - 200 15338 image/pjpeg 97.2726ms
+2025-01-28 17:46:02.984 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/69094741-e3de-44dc-b94e-d77119b129bc.jfif - 200 13468 image/pjpeg 103.2467ms
+2025-01-28 17:46:02.990 +05:30 [INF] Sending file. Request path: '/b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg'
+2025-01-28 17:46:02.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg - 200 68532 image/jpeg 191.8193ms
+2025-01-28 17:46:03.004 +05:30 [INF] Sending file. Request path: '/39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg'
+2025-01-28 17:46:03.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg - 200 151973 image/jpeg 139.2353ms
+2025-01-28 17:46:10.775 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:10.779 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.781 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 7.8222ms
+2025-01-28 17:46:10.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:10.790 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.790 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:10.792 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:10.810 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 17:46:10.813 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:10.814 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 23.3443ms
+2025-01-28 17:46:10.816 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:10.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 35.2981ms
+2025-01-28 17:46:10.846 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.851 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.852 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.855 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 7.0373ms
+2025-01-28 17:46:10.862 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.866 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 14.0652ms
+2025-01-28 17:46:10.869 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.872 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:10.876 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.877 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:10.887 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:10.893 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:10.909 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:10.924 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:10.936 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.942 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.943 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 7.5838ms
+2025-01-28 17:46:10.949 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.953 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.954 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:10.955 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:10.959 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.963 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.964 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 5.9679ms
+2025-01-28 17:46:10.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:10.975 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:10.979 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:10.980 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:10.982 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:11.008 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:11.008 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:11.018 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:11.020 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:11.020 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:11.025 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 74.6066ms
+2025-01-28 17:46:11.025 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:11.032 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 156.0808ms
+2025-01-28 17:46:11.032 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.038 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.041 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrdsg&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:11.046 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 190.1485ms
+2025-01-28 17:46:11.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:11.056 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 109.2853ms
+2025-01-28 17:46:11.066 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:11.066 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:11.069 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 191.3371ms
+2025-01-28 17:46:11.070 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.072 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=afrdsg&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 34.641ms
+2025-01-28 17:46:11.075 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrdsg&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:11.079 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:11.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 239.2551ms
+2025-01-28 17:46:11.084 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 107.8752ms
+2025-01-28 17:46:11.086 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.087 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:11.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 131.9985ms
+2025-01-28 17:46:11.088 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.093 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:11.098 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:11.103 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:11.107 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:11.108 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 14.4524ms
+2025-01-28 17:46:11.110 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:11.111 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrdsg&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 44.1641ms
+2025-01-28 17:46:12.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:12.421 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.421 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.423 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:12.429 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:12.434 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:12.439 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:12.440 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 16.5339ms
+2025-01-28 17:46:12.442 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrds&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 32.1101ms
+2025-01-28 17:46:12.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:12.557 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.560 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.564 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:12.573 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:12.577 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:12.580 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:12.581 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 13.1508ms
+2025-01-28 17:46:12.584 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.585 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afrd&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 49.0297ms
+2025-01-28 17:46:12.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:12.655 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.656 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.658 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:12.665 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:12.671 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:12.674 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:12.675 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 15.1593ms
+2025-01-28 17:46:12.677 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=afr&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 32.3971ms
+2025-01-28 17:46:12.756 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 17:46:12.760 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.762 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.764 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:12.768 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 17:46:12.773 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 17:46:12.777 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:12.778 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 13.5806ms
+2025-01-28 17:46:12.780 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 17:46:12.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=af&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 28.4126ms
+2025-01-28 17:46:12.882 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:12.891 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.897 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:12.901 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:12.912 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 17:46:12.919 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:12.920 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 13.7211ms
+2025-01-28 17:46:12.923 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:12.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 49.9747ms
+2025-01-28 17:46:12.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 17:46:12.990 +05:30 [INF] CORS policy execution successful.
+2025-01-28 17:46:12.992 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:12.994 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 17:46:13.000 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 17:46:13.004 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 17:46:13.005 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 10.0249ms
+2025-01-28 17:46:13.007 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 17:46:13.008 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 25.9798ms
+2025-01-28 17:50:06.943 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 17:50:07.474 +05:30 [INF] Now listening on: https://localhost:7059
+2025-01-28 17:50:07.476 +05:30 [INF] Now listening on: http://localhost:5227
+2025-01-28 17:50:07.552 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 17:50:07.553 +05:30 [INF] Hosting environment: Development
+2025-01-28 17:50:07.555 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-01-28 17:50:08.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-01-28 17:50:09.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 533.3059ms
+2025-01-28 17:50:09.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 17:50:09.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-01-28 17:50:09.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 15.817ms
+2025-01-28 17:50:09.237 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 24.2251ms
+2025-01-28 17:50:09.255 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-01-28 17:50:09.316 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.286ms
+2025-01-28 17:50:09.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-01-28 17:50:09.712 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.844ms
+2025-01-28 18:11:11.665 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-28 18:11:12.006 +05:30 [INF] Now listening on: https://localhost:7059
+2025-01-28 18:11:12.010 +05:30 [INF] Now listening on: http://localhost:5227
+2025-01-28 18:11:12.060 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-28 18:11:12.064 +05:30 [INF] Hosting environment: Development
+2025-01-28 18:11:12.067 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-01-28 18:11:12.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-01-28 18:11:12.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 335.0409ms
+2025-01-28 18:11:12.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-28 18:11:12.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-01-28 18:11:12.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 22.751ms
+2025-01-28 18:11:12.882 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 35.8026ms
+2025-01-28 18:11:12.892 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-01-28 18:11:12.945 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9988ms
+2025-01-28 18:11:13.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-01-28 18:11:13.317 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 242.9041ms
+2025-01-28 18:11:18.950 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/loginUser - null null
+2025-01-28 18:11:18.962 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:18.967 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/loginUser - 204 null null 17.1477ms
+2025-01-28 18:11:18.976 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/loginUser - application/json 52
+2025-01-28 18:11:19.047 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:19.053 +05:30 [INF] Executing endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 18:11:19.077 +05:30 [INF] Route matched with {action = "LoginAgent", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAgent(Domain.Model.LoginDTO) on controller Backend.Controllers.UserController (Backend).
+2025-01-28 18:11:20.648 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[@__user_UserEmail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[UserEmail] = @__user_UserEmail_0
+2025-01-28 18:11:21.794 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__userCheck_RoleId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[RoleId], [r].[RoleName]
+FROM [Role] AS [r]
+WHERE [r].[RoleId] = @__userCheck_RoleId_0
+2025-01-28 18:11:21.858 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:11:21.875 +05:30 [INF] Executed action Backend.Controllers.UserController.LoginAgent (Backend) in 2787.5383ms
+2025-01-28 18:11:21.881 +05:30 [INF] Executed endpoint 'Backend.Controllers.UserController.LoginAgent (Backend)'
+2025-01-28 18:11:21.893 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/loginUser - 200 null application/json; charset=utf-8 2916.9615ms
+2025-01-28 18:11:21.913 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:11:21.919 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:21.921 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 9.077ms
+2025-01-28 18:11:21.934 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:11:21.943 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:21.946 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:11:21.951 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:11:22.025 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:11:22.043 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:11:22.049 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 93.4247ms
+2025-01-28 18:11:22.051 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:11:22.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 118.2726ms
+2025-01-28 18:11:22.083 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif - null null
+2025-01-28 18:11:22.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif - null null
+2025-01-28 18:11:22.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/1123567d-14fa-4102-8956-92b8bfa63f81.jfif - null null
+2025-01-28 18:11:22.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/69094741-e3de-44dc-b94e-d77119b129bc.jfif - null null
+2025-01-28 18:11:22.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/876db938-fc6f-4d5d-a402-dfb231ec7965.jfif - null null
+2025-01-28 18:11:22.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg - null null
+2025-01-28 18:11:22.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/d856346c-aeb5-4168-b842-801a6e38fcac.jfif - null null
+2025-01-28 18:11:22.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif - null null
+2025-01-28 18:11:22.128 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/254480a3-350d-4431-afe3-768ccac1bae5.jfif - null null
+2025-01-28 18:11:22.131 +05:30 [INF] The file /ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif was not modified
+2025-01-28 18:11:22.133 +05:30 [INF] The file /b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg was not modified
+2025-01-28 18:11:22.135 +05:30 [INF] The file /876db938-fc6f-4d5d-a402-dfb231ec7965.jfif was not modified
+2025-01-28 18:11:22.131 +05:30 [INF] The file /1123567d-14fa-4102-8956-92b8bfa63f81.jfif was not modified
+2025-01-28 18:11:22.139 +05:30 [INF] The file /d856346c-aeb5-4168-b842-801a6e38fcac.jfif was not modified
+2025-01-28 18:11:22.135 +05:30 [INF] The file /1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif was not modified
+2025-01-28 18:11:22.142 +05:30 [INF] The file /63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif was not modified
+2025-01-28 18:11:22.142 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/b2d4d660-c52b-4841-a107-a78cf3a3084e.jpg - 304 null image/jpeg 51.5031ms
+2025-01-28 18:11:22.148 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/1057cac6-32b6-4b5a-bbf7-2e0351e497d9.jfif - 304 null image/pjpeg 59.2232ms
+2025-01-28 18:11:22.143 +05:30 [INF] The file /69094741-e3de-44dc-b94e-d77119b129bc.jfif was not modified
+2025-01-28 18:11:22.154 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/63eb1cf8-468f-43f1-b369-ca06efa2e992.jfif - 304 null image/pjpeg 32.5271ms
+2025-01-28 18:11:22.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/1123567d-14fa-4102-8956-92b8bfa63f81.jfif - 304 null image/pjpeg 55.7284ms
+2025-01-28 18:11:22.148 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/876db938-fc6f-4d5d-a402-dfb231ec7965.jfif - 304 null image/pjpeg 33.0749ms
+2025-01-28 18:11:22.166 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/d856346c-aeb5-4168-b842-801a6e38fcac.jfif - 304 null image/pjpeg 47.4325ms
+2025-01-28 18:11:22.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/69094741-e3de-44dc-b94e-d77119b129bc.jfif - 304 null image/pjpeg 71.1104ms
+2025-01-28 18:11:22.177 +05:30 [INF] The file /254480a3-350d-4431-afe3-768ccac1bae5.jfif was not modified
+2025-01-28 18:11:22.179 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg - null null
+2025-01-28 18:11:22.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/ca1612f0-d6ce-4c0b-915e-ae383bb7a4fa.jfif - 304 null image/pjpeg 59.2597ms
+2025-01-28 18:11:22.179 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/34b625cf-c3a8-41bc-a810-c3c407abae59.jfif - null null
+2025-01-28 18:11:22.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/254480a3-350d-4431-afe3-768ccac1bae5.jfif - 304 null image/pjpeg 50.9928ms
+2025-01-28 18:11:22.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif - null null
+2025-01-28 18:11:22.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif - null null
+2025-01-28 18:11:22.207 +05:30 [INF] The file /39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg was not modified
+2025-01-28 18:11:22.207 +05:30 [INF] The file /34b625cf-c3a8-41bc-a810-c3c407abae59.jfif was not modified
+2025-01-28 18:11:22.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/39ead2d1-0ed9-4d43-a0df-86140f241fa1.jpg - 304 null image/jpeg 60.5598ms
+2025-01-28 18:11:22.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/34b625cf-c3a8-41bc-a810-c3c407abae59.jfif - 304 null image/pjpeg 49.068ms
+2025-01-28 18:11:22.222 +05:30 [INF] The file /e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif was not modified
+2025-01-28 18:11:22.222 +05:30 [INF] The file /0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif was not modified
+2025-01-28 18:11:22.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/e7cadfdc-27ee-4d37-9fdf-e3412681f010.jfif - 304 null image/pjpeg 65.9354ms
+2025-01-28 18:11:22.231 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/0d88cced-0cd3-42b3-85f1-89c9e91727b5.jfif - 304 null image/pjpeg 73.4428ms
+2025-01-28 18:11:38.622 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/updateMovie - null null
+2025-01-28 18:11:38.626 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:38.628 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/updateMovie - 204 null null 6.0938ms
+2025-01-28 18:11:38.633 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7059/api/Movie/updateMovie - multipart/form-data; boundary=----WebKitFormBoundaryjqmHoz0QptVYI4cB 348
+2025-01-28 18:11:38.644 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:38.648 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.updateMovies (Backend)'
+2025-01-28 18:11:38.656 +05:30 [INF] Route matched with {action = "updateMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] updateMovies(Domain.Model.UpdateMovieDto) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:11:38.806 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[MovieId] = @__p_0
+2025-01-28 18:11:38.871 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Movie] SET [ReleaseYear] = @p0
+OUTPUT 1
+WHERE [MovieId] = @p1;
+2025-01-28 18:11:38.891 +05:30 [INF] Movie updated successfully: 17
+2025-01-28 18:11:38.894 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:11:38.898 +05:30 [INF] Executed action Backend.Controllers.MovieController.updateMovies (Backend) in 237.6788ms
+2025-01-28 18:11:38.900 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.updateMovies (Backend)'
+2025-01-28 18:11:38.903 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7059/api/Movie/updateMovie - 200 null application/json; charset=utf-8 270.6933ms
+2025-01-28 18:11:38.909 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:11:38.915 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:38.916 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 7.6331ms
+2025-01-28 18:11:38.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:11:38.926 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:11:38.928 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:11:38.929 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:11:38.940 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:11:38.946 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:11:38.949 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 16.717ms
+2025-01-28 18:11:38.952 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:11:38.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 32.6594ms
+2025-01-28 18:12:14.822 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/addMovie - null null
+2025-01-28 18:12:14.826 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:14.828 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/addMovie - 204 null null 6.0403ms
+2025-01-28 18:12:14.834 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Movie/addMovie - multipart/form-data; boundary=----WebKitFormBoundaryNB81L22TnBrQmxTV 152367
+2025-01-28 18:12:14.840 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:14.841 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.AddMovies (Backend)'
+2025-01-28 18:12:14.845 +05:30 [INF] Route matched with {action = "AddMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovies(Domain.Model.MovieDto) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:14.885 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__movieData_MovieTitle_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[MovieTitle] = @__movieData_MovieTitle_0 AND [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:14.891 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:14.893 +05:30 [INF] Executed action Backend.Controllers.MovieController.AddMovies (Backend) in 43.4008ms
+2025-01-28 18:12:14.894 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.AddMovies (Backend)'
+2025-01-28 18:12:14.901 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Movie/addMovie - 200 null application/json; charset=utf-8 67.4037ms
+2025-01-28 18:12:41.437 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/addMovie - null null
+2025-01-28 18:12:41.441 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:41.443 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/addMovie - 204 null null 6.0765ms
+2025-01-28 18:12:41.451 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Movie/addMovie - multipart/form-data; boundary=----WebKitFormBoundary8UOFl1vqhK29sQKB 9590
+2025-01-28 18:12:41.457 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:41.458 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.AddMovies (Backend)'
+2025-01-28 18:12:41.460 +05:30 [INF] Route matched with {action = "AddMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovies(Domain.Model.MovieDto) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:41.468 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__movieData_MovieTitle_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[MovieTitle] = @__movieData_MovieTitle_0 AND [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:41.536 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Movie] ([MovieTitle], [PosterImage], [ReleaseYear], [isDeleted])
+OUTPUT INSERTED.[MovieId]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-28 18:12:41.552 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:41.556 +05:30 [INF] Executed action Backend.Controllers.MovieController.AddMovies (Backend) in 93.5264ms
+2025-01-28 18:12:41.559 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.AddMovies (Backend)'
+2025-01-28 18:12:41.562 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Movie/addMovie - 200 null application/json; charset=utf-8 112.2739ms
+2025-01-28 18:12:41.569 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:41.573 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:41.575 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 6.3234ms
+2025-01-28 18:12:41.580 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:41.585 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:41.586 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:41.587 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:41.594 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:41.598 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:41.601 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 10.6832ms
+2025-01-28 18:12:41.603 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:41.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 24.0519ms
+2025-01-28 18:12:41.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/6d056b8f-0f3c-4e47-a6a8-3d9a8633f4fe.jfif - null null
+2025-01-28 18:12:41.632 +05:30 [INF] Sending file. Request path: '/6d056b8f-0f3c-4e47-a6a8-3d9a8633f4fe.jfif'. Physical path: 'C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend\wwwroot\Images\6d056b8f-0f3c-4e47-a6a8-3d9a8633f4fe.jfif'
+2025-01-28 18:12:41.636 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/6d056b8f-0f3c-4e47-a6a8-3d9a8633f4fe.jfif - 200 9192 image/pjpeg 24.3945ms
+2025-01-28 18:12:49.044 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:49.049 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:49.052 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 8.2276ms
+2025-01-28 18:12:49.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:49.061 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:49.062 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:49.065 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:49.071 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:49.075 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:49.077 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 8.4574ms
+2025-01-28 18:12:49.078 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:49.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 23.2752ms
+2025-01-28 18:12:49.815 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=jj&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:49.825 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:49.826 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=jj&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 11.054ms
+2025-01-28 18:12:49.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=jj&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:49.836 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:49.837 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:49.840 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:49.863 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:49.892 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:49.898 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:49.900 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 55.6629ms
+2025-01-28 18:12:49.901 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:49.902 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=jj&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 71.7509ms
+2025-01-28 18:12:51.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:51.854 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:51.857 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:51.859 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:51.866 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:51.871 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:51.872 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 9.2556ms
+2025-01-28 18:12:51.875 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:51.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 32.1499ms
+2025-01-28 18:12:52.028 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:52.035 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:52.036 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:52.039 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:52.048 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:52.052 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:52.055 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 11.6541ms
+2025-01-28 18:12:52.057 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:52.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 30.3809ms
+2025-01-28 18:12:53.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:12:53.090 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:53.093 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:53.097 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:53.103 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:12:53.107 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:53.109 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 8.5584ms
+2025-01-28 18:12:53.111 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:12:53.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 39.0729ms
+2025-01-28 18:12:53.188 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:53.193 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:53.194 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 6.0071ms
+2025-01-28 18:12:53.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:53.209 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:53.211 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:53.212 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:53.219 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:53.226 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:53.229 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:53.232 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 16.9156ms
+2025-01-28 18:12:53.234 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:53.235 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 32.4782ms
+2025-01-28 18:12:54.444 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.452 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.453 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 9.2636ms
+2025-01-28 18:12:54.458 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.462 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.464 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.466 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:54.472 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:54.477 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:54.480 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:54.482 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 12.5324ms
+2025-01-28 18:12:54.484 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.487 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 29.104ms
+2025-01-28 18:12:54.562 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.567 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.568 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 5.7843ms
+2025-01-28 18:12:54.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.578 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.579 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.580 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:54.587 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:54.592 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:54.595 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:54.597 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 14.2684ms
+2025-01-28 18:12:54.599 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.601 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 26.5618ms
+2025-01-28 18:12:54.706 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.711 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.712 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 6.0668ms
+2025-01-28 18:12:54.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:54.724 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:54.725 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.726 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:54.733 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:54.738 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:54.742 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:54.743 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 14.3376ms
+2025-01-28 18:12:54.745 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:54.747 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 28.362ms
+2025-01-28 18:12:54.993 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayur%20&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:55.004 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:55.005 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=mayur%20&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 13.312ms
+2025-01-28 18:12:55.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur%20&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:55.017 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:55.018 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:55.019 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:55.025 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:55.031 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:55.035 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:55.037 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 15.0173ms
+2025-01-28 18:12:55.039 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:55.041 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur%20&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 29.153ms
+2025-01-28 18:12:57.892 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:57.898 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:57.900 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:57.902 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:57.908 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:57.915 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:57.920 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:57.922 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 17.0554ms
+2025-01-28 18:12:57.924 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:57.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayur&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 35.3949ms
+2025-01-28 18:12:58.253 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:58.261 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:58.262 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:58.264 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:58.272 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:58.277 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:58.280 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:58.282 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 14.6593ms
+2025-01-28 18:12:58.284 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:58.286 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=mayu&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 33.5719ms
+2025-01-28 18:12:58.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:58.696 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:58.698 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:58.699 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:58.707 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:58.712 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:58.715 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:58.717 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 13.7472ms
+2025-01-28 18:12:58.720 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:58.722 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=may&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 31.3763ms
+2025-01-28 18:12:59.113 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:59.128 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:59.129 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 204 null null 17.334ms
+2025-01-28 18:12:59.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - null null
+2025-01-28 18:12:59.139 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:12:59.141 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:59.143 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:12:59.150 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_apiKey_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[DateOfBirth], [u].[MobileNumber], [u].[Password], [u].[RoleId], [u].[UserEmail], [u].[UserName], [u].[apiKey]
+FROM [User] AS [u]
+WHERE [u].[apiKey] = @__request_apiKey_0
+2025-01-28 18:12:59.159 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit) AND [m].[MovieTitle] LIKE @__Format_1
+2025-01-28 18:12:59.162 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:12:59.163 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMovies (Backend) in 16.7132ms
+2025-01-28 18:12:59.165 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMovies (Backend)'
+2025-01-28 18:12:59.166 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovie?s=ma&apikey=bffe02a9-ad3b-4dc3-a53f-ff611b05dece - 200 null application/json; charset=utf-8 31.1658ms
+2025-01-28 18:13:00.207 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:13:00.221 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:13:00.223 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 16.4642ms
+2025-01-28 18:13:00.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:13:00.235 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:13:00.236 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:13:00.238 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:13:00.245 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:13:00.250 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:13:00.251 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 9.4594ms
+2025-01-28 18:13:00.253 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:13:00.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 26.0921ms
+2025-01-28 18:13:02.276 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-01-28 18:13:02.282 +05:30 [INF] CORS policy execution successful.
+2025-01-28 18:13:02.283 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:13:02.285 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-01-28 18:13:02.291 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-01-28 18:13:02.295 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-01-28 18:13:02.297 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 7.9969ms
+2025-01-28 18:13:02.299 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-01-28 18:13:02.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 24.4042ms

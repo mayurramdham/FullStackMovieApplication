@@ -1,0 +1,37 @@
+2025-02-05 12:00:54.294 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-05 12:00:54.360 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-05 12:00:54.362 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-05 12:00:54.363 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-05 12:00:54.389 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-02-05 12:00:54.402 +05:30 [INF] Applying migration '20250205063013_updateMovieId'.
+2025-02-05 12:00:54.449 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movie] ADD [Id] int NOT NULL DEFAULT 0;
+2025-02-05 12:00:54.455 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Movie_Id] ON [Movie] ([Id]);
+2025-02-05 12:00:54.463 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Movie] ADD CONSTRAINT [FK_Movie_User_Id] FOREIGN KEY ([Id]) REFERENCES [User] ([Id]) ON DELETE CASCADE;
+2025-02-05 12:07:47.302 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 12:07:47.537 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-05 12:07:47.539 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-05 12:07:47.579 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 12:07:47.581 +05:30 [INF] Hosting environment: Development
+2025-02-05 12:07:47.582 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-05 12:08:10.398 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 12:08:10.661 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-05 12:08:10.663 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-05 12:08:10.709 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 12:08:10.711 +05:30 [INF] Hosting environment: Development
+2025-02-05 12:08:10.712 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-05 12:08:24.367 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 12:08:24.705 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-05 12:08:24.707 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-05 12:08:24.772 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 12:08:24.775 +05:30 [INF] Hosting environment: Development
+2025-02-05 12:08:24.776 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend

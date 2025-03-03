@@ -1,0 +1,68 @@
+2025-02-12 18:26:17.469 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 18:26:18.116 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-12 18:26:18.136 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-12 18:26:18.254 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 18:26:18.256 +05:30 [INF] Hosting environment: Development
+2025-02-12 18:26:18.258 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-12 18:26:22.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger - null null
+2025-02-12 18:26:22.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger - 301 0 null 292.804ms
+2025-02-12 18:26:22.662 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-12 18:26:22.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 81.0027ms
+2025-02-12 18:26:22.764 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui.css - null null
+2025-02-12 18:26:22.770 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-12 18:26:22.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-12 18:26:22.792 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.css - null null
+2025-02-12 18:26:22.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui-bundle.js - null null
+2025-02-12 18:26:22.799 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 18:26:22.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 23.099ms
+2025-02-12 18:26:22.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-12 18:26:22.820 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-12 18:26:22.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.css - 200 202 text/css 53.6882ms
+2025-02-12 18:26:22.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 64.4421ms
+2025-02-12 18:26:22.852 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-12 18:26:22.856 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-12 18:26:22.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 90.1122ms
+2025-02-12 18:26:22.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui.css - 200 152035 text/css 96.9639ms
+2025-02-12 18:26:22.915 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-12 18:26:22.922 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 151.9364ms
+2025-02-12 18:26:22.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.2709ms
+2025-02-12 18:26:23.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-12 18:26:23.352 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/favicon-32x32.png - null null
+2025-02-12 18:26:23.360 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-12 18:26:23.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/favicon-32x32.png - 200 628 image/png 25.2534ms
+2025-02-12 18:26:23.673 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 355.4199ms
+2025-02-12 18:27:32.384 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-02-12 18:27:32.401 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:27:32.406 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Movie/getAllMovieData - 204 null null 22.3898ms
+2025-02-12 18:27:32.442 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - null null
+2025-02-12 18:27:32.453 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:27:32.635 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-02-12 18:27:32.662 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-12 18:27:32.666 +05:30 [INF] Executing endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-02-12 18:27:32.695 +05:30 [INF] Route matched with {action = "getAllMoviesData", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMoviesData() on controller Backend.Controllers.MovieController (Backend).
+2025-02-12 18:27:34.716 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[MovieId], [m].[Id], [m].[MovieTitle], [m].[PosterImage], [m].[ReleaseYear], [m].[isDeleted]
+FROM [Movie] AS [m]
+WHERE [m].[isDeleted] = CAST(0 AS bit)
+2025-02-12 18:27:34.797 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-02-12 18:27:34.834 +05:30 [INF] Executed action Backend.Controllers.MovieController.getAllMoviesData (Backend) in 2132.8956ms
+2025-02-12 18:27:34.837 +05:30 [INF] Executed endpoint 'Backend.Controllers.MovieController.getAllMoviesData (Backend)'
+2025-02-12 18:27:34.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/api/Movie/getAllMovieData - 200 null application/json; charset=utf-8 2404.6489ms
+2025-02-12 18:27:34.913 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/4c0194cf-abe7-49a2-9934-eb90cddaaeed.jfif - null null
+2025-02-12 18:27:34.941 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/03b68473-4cc5-4656-811a-a3cec83b0155.jfif - null null
+2025-02-12 18:27:34.913 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/2342faea-e60e-489b-a43d-2f9ebba01587.jpg - null null
+2025-02-12 18:27:34.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/Images/8ea6035d-777f-44b4-ad03-42ea593ab1a9.jfif - null null
+2025-02-12 18:27:34.955 +05:30 [INF] The file /4c0194cf-abe7-49a2-9934-eb90cddaaeed.jfif was not modified
+2025-02-12 18:27:34.957 +05:30 [INF] The file /8ea6035d-777f-44b4-ad03-42ea593ab1a9.jfif was not modified
+2025-02-12 18:27:34.957 +05:30 [INF] The file /2342faea-e60e-489b-a43d-2f9ebba01587.jpg was not modified
+2025-02-12 18:27:34.958 +05:30 [INF] The file /03b68473-4cc5-4656-811a-a3cec83b0155.jfif was not modified
+2025-02-12 18:27:34.962 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/8ea6035d-777f-44b4-ad03-42ea593ab1a9.jfif - 304 null image/pjpeg 44.561ms
+2025-02-12 18:27:34.967 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/03b68473-4cc5-4656-811a-a3cec83b0155.jfif - 304 null image/pjpeg 49.3485ms
+2025-02-12 18:27:34.972 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/2342faea-e60e-489b-a43d-2f9ebba01587.jpg - 304 null image/jpeg 47.3636ms
+2025-02-12 18:27:34.972 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/Images/4c0194cf-abe7-49a2-9934-eb90cddaaeed.jfif - 304 null image/pjpeg 47.3842ms

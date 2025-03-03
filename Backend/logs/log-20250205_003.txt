@@ -1,0 +1,20 @@
+2025-02-05 12:08:26.232 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-05 12:08:26.356 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-05 12:08:26.382 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-02-05 12:08:58.162 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 12:08:58.377 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-05 12:08:58.379 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-05 12:08:58.424 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 12:08:58.426 +05:30 [INF] Hosting environment: Development
+2025-02-05 12:08:58.428 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-05 12:09:17.637 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-05 12:09:17.923 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-05 12:09:17.924 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-05 12:09:17.979 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 12:09:17.981 +05:30 [INF] Hosting environment: Development
+2025-02-05 12:09:17.982 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend

@@ -1,0 +1,635 @@
+2025-02-06 10:10:52.014 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:10:52.513 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-06 10:10:52.515 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 10:10:52.567 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:10:52.568 +05:30 [INF] Hosting environment: Development
+2025-02-06 10:10:52.570 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 10:10:54.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-06 10:10:55.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 975.0451ms
+2025-02-06 10:10:55.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 10:10:55.402 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-06 10:10:55.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-06 10:10:55.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 47.744ms
+2025-02-06 10:10:55.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 56.6926ms
+2025-02-06 10:10:55.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 144.4521ms
+2025-02-06 10:10:55.715 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-06 10:10:55.930 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 215.8859ms
+2025-02-06 10:11:06.345 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 25
+2025-02-06 10:11:06.365 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:11:06.368 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-06 10:11:06.372 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:11:06.395 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 10:11:06.423 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 10:11:06.434 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 10:11:06.446 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 40.91ms
+2025-02-06 10:11:06.451 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:11:06.453 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 500 null application/json; charset=utf-8 107.277ms
+2025-02-06 10:12:43.942 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1204
+2025-02-06 10:12:43.955 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:12:43.956 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-06 10:12:43.958 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:12:43.959 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 10:12:43.963 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 10:12:43.971 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 10:12:43.972 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 10.004ms
+2025-02-06 10:12:43.979 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:12:43.982 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 500 null application/json; charset=utf-8 40.3758ms
+2025-02-06 10:24:37.724 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1204
+2025-02-06 10:24:37.731 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:24:37.733 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-06 10:24:37.734 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:24:37.736 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 10:24:37.742 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 10:24:37.750 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 10:24:37.751 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 10.2383ms
+2025-02-06 10:24:37.753 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:24:37.754 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 500 null application/json; charset=utf-8 34.9717ms
+2025-02-06 10:25:00.352 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:25:00.719 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-06 10:25:00.721 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 10:25:00.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:25:00.790 +05:30 [INF] Hosting environment: Development
+2025-02-06 10:25:00.792 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 10:25:01.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-06 10:25:02.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 581.2467ms
+2025-02-06 10:25:02.349 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 10:25:02.349 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-06 10:25:02.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 20.8724ms
+2025-02-06 10:25:02.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 35.4791ms
+2025-02-06 10:25:02.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-06 10:25:02.488 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.7119ms
+2025-02-06 10:25:02.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-06 10:25:02.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 214.1314ms
+2025-02-06 10:25:11.687 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1204
+2025-02-06 10:25:11.708 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 10:25:11.713 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 10:25:11.715 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 401 0 null 28.6101ms
+2025-02-06 10:25:56.923 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1211
+2025-02-06 10:25:56.935 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 10:25:56.938 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 10:25:56.940 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 401 0 null 17.7415ms
+2025-02-06 10:26:05.090 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1211
+2025-02-06 10:26:05.171 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 10:26:05.206 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2025-02-06 10:26:06.115 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:26:06.118 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-06 10:26:06.122 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:26:06.141 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 10:26:06.150 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 10:26:06.163 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 10:26:06.175 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 23.6476ms
+2025-02-06 10:26:06.178 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:26:06.179 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 500 null application/json; charset=utf-8 1089.9692ms
+2025-02-06 10:26:19.606 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/verify-token - application/json 1205
+2025-02-06 10:26:19.614 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 10:26:19.622 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2025-02-06 10:26:19.626 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:26:19.627 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-06 10:26:19.629 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:26:19.632 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 10:26:19.637 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 10:26:19.645 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 10:26:19.647 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 10.2412ms
+2025-02-06 10:26:19.649 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 10:26:19.650 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/verify-token - 500 null application/json; charset=utf-8 44.8014ms
+2025-02-06 10:39:23.040 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:39:23.314 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 10:39:23.365 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:39:23.368 +05:30 [INF] Hosting environment: Development
+2025-02-06 10:39:23.371 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 10:39:24.099 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger - null null
+2025-02-06 10:39:24.638 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger - 301 0 null 544.9783ms
+2025-02-06 10:39:24.645 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 10:39:24.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 97.9867ms
+2025-02-06 10:39:24.773 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui.css - null null
+2025-02-06 10:39:24.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui-bundle.js - null null
+2025-02-06 10:39:24.787 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.css - null null
+2025-02-06 10:39:24.791 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-06 10:39:24.795 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 10:39:24.798 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 10:39:24.802 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 23.3039ms
+2025-02-06 10:39:24.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 14.8197ms
+2025-02-06 10:39:24.821 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-02-06 10:39:24.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.css - 200 202 text/css 50.6003ms
+2025-02-06 10:39:24.833 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-06 10:39:24.833 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-06 10:39:24.838 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 10:39:24.844 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 65.7788ms
+2025-02-06 10:39:24.844 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui.css - 200 152035 text/css 64.6947ms
+2025-02-06 10:39:24.856 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-06 10:39:24.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 84.253ms
+2025-02-06 10:39:24.920 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.5521ms
+2025-02-06 10:39:25.271 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 10:39:25.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/favicon-32x32.png - null null
+2025-02-06 10:39:25.319 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-06 10:39:25.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/favicon-32x32.png - 200 628 image/png 14.6862ms
+2025-02-06 10:39:25.478 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 206.4624ms
+2025-02-06 10:40:11.673 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 25
+2025-02-06 10:40:11.686 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 10:40:11.695 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 10:40:11.698 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 25.1164ms
+2025-02-06 10:51:35.572 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:51:36.014 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 10:51:36.087 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:51:36.089 +05:30 [INF] Hosting environment: Development
+2025-02-06 10:51:36.091 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 10:51:36.882 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 10:51:37.296 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 418.7567ms
+2025-02-06 10:51:37.316 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 10:51:37.322 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 10:51:37.328 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.6196ms
+2025-02-06 10:51:37.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 23.484ms
+2025-02-06 10:51:37.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 10:51:37.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.2764ms
+2025-02-06 10:51:37.642 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 10:51:37.811 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.7489ms
+2025-02-06 10:55:29.174 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:55:29.573 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 10:55:29.640 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:55:29.642 +05:30 [INF] Hosting environment: Development
+2025-02-06 10:55:29.644 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 10:55:30.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 10:55:30.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 583.8095ms
+2025-02-06 10:55:30.969 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 10:55:30.977 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 10:55:30.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.2091ms
+2025-02-06 10:55:30.990 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 20.7443ms
+2025-02-06 10:55:31.017 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 10:55:31.059 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.2938ms
+2025-02-06 10:55:31.157 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 10:55:31.291 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.2427ms
+2025-02-06 10:55:38.121 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 25
+2025-02-06 10:55:38.137 +05:30 [INF] CORS policy execution failed.
+2025-02-06 10:55:38.140 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-06 10:55:38.148 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 10:55:38.155 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 10:55:38.157 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 35.7086ms
+2025-02-06 11:02:47.907 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:02:48.364 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:02:48.408 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:02:48.412 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:02:48.413 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:02:49.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 11:02:50.579 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 609.856ms
+2025-02-06 11:02:50.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 11:02:50.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:02:50.642 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 24.4692ms
+2025-02-06 11:02:50.647 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 30.3085ms
+2025-02-06 11:02:50.725 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 11:02:50.783 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.6651ms
+2025-02-06 11:02:50.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 11:02:51.172 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.4905ms
+2025-02-06 11:03:49.666 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 25
+2025-02-06 11:03:49.676 +05:30 [INF] CORS policy execution failed.
+2025-02-06 11:03:49.677 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-06 11:03:49.960 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:03:49.964 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:03:49.966 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 300.377ms
+2025-02-06 11:04:25.858 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:04:25.864 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:04:25.868 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 10.1368ms
+2025-02-06 11:04:25.885 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 1199
+2025-02-06 11:04:25.890 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:04:25.937 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:04:25.981 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:04:25.983 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:04:25.985 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:04:25.987 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 101.2774ms
+2025-02-06 11:12:57.046 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:12:57.471 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-06 11:12:57.473 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:12:57.551 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:12:57.553 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:12:57.554 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:12:58.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-06 11:12:58.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 360.0263ms
+2025-02-06 11:12:58.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:12:58.984 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-06 11:12:58.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 10.1555ms
+2025-02-06 11:12:59.011 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 35.1821ms
+2025-02-06 11:12:59.071 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-06 11:12:59.138 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.4795ms
+2025-02-06 11:12:59.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-06 11:12:59.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 198.6069ms
+2025-02-06 11:13:04.616 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/loginUser - null null
+2025-02-06 11:13:04.625 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:13:04.629 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/loginUser - 204 null null 13.5273ms
+2025-02-06 11:13:04.636 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/loginUser - application/json 52
+2025-02-06 11:13:04.640 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:13:04.777 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:13:04.806 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:13:04.816 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:13:04.822 +05:30 [INF] AuthenticationScheme: CustomAuth was challenged.
+2025-02-06 11:13:04.827 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/loginUser - 401 0 null 191.4806ms
+2025-02-06 11:15:13.656 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:15:13.665 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:15:13.685 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 29.2468ms
+2025-02-06 11:15:13.690 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 1199
+2025-02-06 11:15:13.695 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:15:13.705 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:15:13.713 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:15:13.716 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:15:13.718 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:15:13.719 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 28.9765ms
+2025-02-06 11:15:35.428 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:15:35.724 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:15:35.781 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:15:35.784 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:15:35.786 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:15:36.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 11:15:36.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 447.0314ms
+2025-02-06 11:15:36.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 11:15:36.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:15:36.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 15.5155ms
+2025-02-06 11:15:36.527 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 19.0587ms
+2025-02-06 11:15:36.565 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 11:15:36.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.3638ms
+2025-02-06 11:15:36.752 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 11:15:36.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.4361ms
+2025-02-06 11:15:53.987 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:15:53.999 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:15:54.004 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 17.1756ms
+2025-02-06 11:15:54.012 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 1199
+2025-02-06 11:15:54.019 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:15:54.152 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:15:54.178 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:15:54.182 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:15:54.188 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:15:54.193 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 180.635ms
+2025-02-06 11:19:51.603 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - null 0
+2025-02-06 11:19:52.585 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '06-02-2025 05:42:16', Current time (UTC): '06-02-2025 05:49:52'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 11:19:52.593 +05:30 [INF] Firebase was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '06-02-2025 05:42:16', Current time (UTC): '06-02-2025 05:49:52'.
+2025-02-06 11:19:52.600 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:19:52.603 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:19:52.606 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 1003.1945ms
+2025-02-06 11:20:06.361 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - null 0
+2025-02-06 11:20:06.370 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:20:06.378 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:20:06.382 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:20:06.384 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:20:06.386 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 25.0629ms
+2025-02-06 11:20:11.721 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - null 0
+2025-02-06 11:20:11.728 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:20:11.738 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:20:11.741 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:20:11.744 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:20:11.746 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 24.9313ms
+2025-02-06 11:21:11.608 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:21:11.864 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:21:11.917 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:21:11.919 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:21:11.920 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:21:12.390 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 11:21:12.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 302.7797ms
+2025-02-06 11:21:12.708 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:21:12.715 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 11:21:12.724 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 16.6765ms
+2025-02-06 11:21:12.731 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 23.2874ms
+2025-02-06 11:21:12.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 11:21:12.799 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.2837ms
+2025-02-06 11:21:12.893 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 11:21:13.038 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.415ms
+2025-02-06 11:21:34.795 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:21:34.821 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:21:34.826 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 30.9947ms
+2025-02-06 11:21:34.833 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 1199
+2025-02-06 11:21:34.839 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:21:34.969 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:21:34.993 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:21:34.999 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:21:35.006 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:21:35.010 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 176.6204ms
+2025-02-06 11:23:47.542 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:23:47.552 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:23:47.558 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 16.7935ms
+2025-02-06 11:23:47.575 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 2
+2025-02-06 11:23:47.582 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:23:48.210 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-06 11:23:48.219 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 11:23:48.227 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2025-02-06 11:23:48.231 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 11:23:48.248 +05:30 [INF] Route matched with {action = "VerifyToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyToken(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 11:23:48.256 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 11:23:48.265 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 11:23:48.274 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyToken (Backend) in 18.4627ms
+2025-02-06 11:23:48.278 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyToken (Backend)'
+2025-02-06 11:23:48.282 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 500 null application/json; charset=utf-8 706.8455ms
+2025-02-06 11:24:33.366 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - null 0
+2025-02-06 11:24:33.385 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.ValidateAndGetOutputSize(String inputString, Int32 offset, Int32 length)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-06 11:24:33.398 +05:30 [INF] Firebase was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-06 11:24:33.400 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-06 11:24:33.402 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-06 11:24:33.405 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 401 0 null 38.9424ms
+2025-02-06 11:38:31.783 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:38:32.173 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:38:32.250 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:38:32.258 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:38:32.266 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:38:32.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 11:38:33.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 464.8328ms
+2025-02-06 11:38:33.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:38:33.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 11:38:33.327 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.4145ms
+2025-02-06 11:38:33.335 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 26.7831ms
+2025-02-06 11:38:33.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 11:38:33.436 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.7458ms
+2025-02-06 11:38:33.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 11:38:33.783 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.1082ms
+2025-02-06 11:39:01.011 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:39:01.022 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:39:01.027 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 20.3468ms
+2025-02-06 11:39:01.045 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 2
+2025-02-06 11:39:01.053 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:39:02.189 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-06 11:39:02.200 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 11:39:02.228 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2025-02-06 11:39:02.234 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyFirebaseToken (Backend)'
+2025-02-06 11:39:02.249 +05:30 [INF] Route matched with {action = "VerifyFirebaseToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyFirebaseToken() on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 11:39:02.258 +05:30 [ERR]    at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+System.InvalidOperationException: Unable to resolve service for type 'Infrastructure.Service.FirebaseAuthService' while attempting to activate 'Backend.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method11(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-02-06 11:39:02.278 +05:30 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 11:39:02.290 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyFirebaseToken (Backend) in 33.1711ms
+2025-02-06 11:39:02.295 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyFirebaseToken (Backend)'
+2025-02-06 11:39:02.297 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 500 null application/json; charset=utf-8 1251.4275ms
+2025-02-06 11:56:40.692 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 11:56:41.157 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 11:56:41.245 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 11:56:41.247 +05:30 [INF] Hosting environment: Development
+2025-02-06 11:56:41.248 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 11:56:41.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-06 11:56:42.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 426.7881ms
+2025-02-06 11:56:42.246 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 11:56:42.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-06 11:56:42.269 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 24.0389ms
+2025-02-06 11:56:42.276 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 30.7459ms
+2025-02-06 11:56:42.321 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-06 11:56:42.393 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.4531ms
+2025-02-06 11:56:42.524 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-06 11:56:42.732 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.3537ms
+2025-02-06 11:57:03.320 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - null null
+2025-02-06 11:57:03.331 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:57:03.336 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/verify-token - 204 null null 21.1821ms
+2025-02-06 11:57:03.343 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - application/json 2
+2025-02-06 11:57:03.350 +05:30 [INF] CORS policy execution successful.
+2025-02-06 11:57:04.700 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-06 11:57:04.710 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidIssuerException: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuerAsync(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateIssuer(String issuer, SecurityToken securityToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateAfterSignatureFailed(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, IEnumerable`1 audiences, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-02-06 11:57:04.735 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX10205: Issuer validation failed. Issuer: 'https://securetoken.google.com/movieapplicationlogin'. Did not match: validationParameters.ValidIssuer: 'https://localhost:7047' or validationParameters.ValidIssuers: 'null' or validationParameters.ConfigurationManager.CurrentConfiguration.Issuer: 'Null'. For more details, see https://aka.ms/IdentityModel/issuer-validation. 
+2025-02-06 11:57:04.738 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.VerifyFirebaseToken (Backend)'
+2025-02-06 11:57:04.752 +05:30 [INF] Route matched with {action = "VerifyFirebaseToken", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyFirebaseToken() on controller Backend.Controllers.AuthController (Backend).
+2025-02-06 11:57:05.574 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-06 11:57:05.586 +05:30 [INF] Executed action Backend.Controllers.AuthController.VerifyFirebaseToken (Backend) in 825.38ms
+2025-02-06 11:57:05.591 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.VerifyFirebaseToken (Backend)'
+2025-02-06 11:57:05.593 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/verify-token - 200 null application/json; charset=utf-8 2249.3557ms
+2025-02-06 12:07:03.803 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 12:07:04.165 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-06 12:07:04.167 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-06 12:07:04.243 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 12:07:04.245 +05:30 [INF] Hosting environment: Development
+2025-02-06 12:07:04.246 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-06 12:07:05.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-06 12:07:05.508 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 436.8673ms
+2025-02-06 12:07:05.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 12:07:05.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-06 12:07:05.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 8.7031ms
+2025-02-06 12:07:05.550 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.7509ms
+2025-02-06 12:07:05.598 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-06 12:07:05.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.6549ms
+2025-02-06 12:07:05.799 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-06 12:07:06.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.6127ms

@@ -1,0 +1,16 @@
+2025-02-07 16:25:27.549 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-07 16:25:28.112 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-07 16:25:28.114 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-07 16:25:28.177 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-07 16:25:28.179 +05:30 [INF] Hosting environment: Development
+2025-02-07 16:25:28.180 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-07 16:25:32.229 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-07 16:25:32.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 314.6393ms
+2025-02-07 16:25:32.554 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-07 16:25:32.554 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-07 16:25:32.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 11.0256ms
+2025-02-07 16:25:32.574 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 19.7569ms
+2025-02-07 16:25:32.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-07 16:25:32.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.5813ms
+2025-02-07 16:25:32.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-07 16:25:32.976 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.6547ms

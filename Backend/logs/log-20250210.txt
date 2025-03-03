@@ -1,0 +1,592 @@
+2025-02-10 14:25:06.871 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 14:25:06.982 +05:30 [INF] Creating key {e345515e-9c85-41ab-bfce-fe5ea2c3373c} with creation date 2025-02-10 08:55:06Z, activation date 2025-02-12 05:00:30Z, and expiration date 2025-05-11 08:55:06Z.
+2025-02-10 14:25:06.999 +05:30 [INF] Writing data to file 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys\key-e345515e-9c85-41ab-bfce-fe5ea2c3373c.xml'.
+2025-02-10 14:25:07.467 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-10 14:25:07.484 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 14:25:07.616 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 14:25:07.618 +05:30 [INF] Hosting environment: Development
+2025-02-10 14:25:07.620 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 14:25:10.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-10 14:25:11.275 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 452.8626ms
+2025-02-10 14:25:11.294 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.css - null null
+2025-02-10 14:25:11.294 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui-bundle.js - null null
+2025-02-10 14:25:11.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-10 14:25:11.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui.css - null null
+2025-02-10 14:25:11.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 14:25:11.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-10 14:25:11.331 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-10 14:25:11.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 40.7437ms
+2025-02-10 14:25:11.346 +05:30 [INF] The file /index.css was not modified
+2025-02-10 14:25:11.350 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.css - 304 null text/css 56.5941ms
+2025-02-10 14:25:11.359 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 60.0336ms
+2025-02-10 14:25:11.389 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-02-10 14:25:11.389 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-02-10 14:25:11.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 99.1914ms
+2025-02-10 14:25:11.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui.css - 200 152035 text/css 100.9925ms
+2025-02-10 14:25:11.442 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-02-10 14:25:11.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 151.0486ms
+2025-02-10 14:25:11.449 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.4223ms
+2025-02-10 14:25:11.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-10 14:25:11.845 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.1488ms
+2025-02-10 15:19:29.957 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:19:30.354 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:19:30.446 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:19:30.448 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:19:30.449 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:19:31.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 15:19:31.925 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 461.0169ms
+2025-02-10 15:19:31.961 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:19:31.972 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 15:19:31.979 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.9679ms
+2025-02-10 15:19:31.987 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 23.0974ms
+2025-02-10 15:19:32.069 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 15:19:32.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.7942ms
+2025-02-10 15:19:32.400 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 15:19:32.435 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/favicon-32x32.png - null null
+2025-02-10 15:19:32.453 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-02-10 15:19:32.455 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/favicon-32x32.png - 200 628 image/png 19.5085ms
+2025-02-10 15:19:32.591 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 190.995ms
+2025-02-10 15:19:37.184 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 25
+2025-02-10 15:19:37.195 +05:30 [INF] CORS policy execution failed.
+2025-02-10 15:19:37.198 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 15:19:37.481 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-02-10 15:19:37.488 +05:30 [INF] AuthenticationScheme: Firebase was challenged.
+2025-02-10 15:19:37.493 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 401 0 null 309.246ms
+2025-02-10 15:20:53.182 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:20:53.524 +05:30 [INF] Now listening on: https://localhost:7059
+2025-02-10 15:20:53.526 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:20:53.577 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:20:53.581 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:20:53.584 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:20:54.240 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.html - null null
+2025-02-10 15:20:54.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.html - 200 null text/html;charset=utf-8 397.6618ms
+2025-02-10 15:20:54.655 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:20:54.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/index.js - null null
+2025-02-10 15:20:54.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/index.js - 200 null application/javascript;charset=utf-8 10.3591ms
+2025-02-10 15:20:54.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 19.6271ms
+2025-02-10 15:20:54.690 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/_vs/browserLink - null null
+2025-02-10 15:20:54.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.9793ms
+2025-02-10 15:20:55.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - null null
+2025-02-10 15:20:55.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7059/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 242.4285ms
+2025-02-10 15:20:59.001 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/google - application/json 25
+2025-02-10 15:20:59.011 +05:30 [INF] CORS policy execution failed.
+2025-02-10 15:20:59.013 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-10 15:20:59.123 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:20:59.153 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:20:59.904 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 15:20:59.916 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 753.2173ms
+2025-02-10 15:20:59.918 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:20:59.919 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/google - 401 null application/json; charset=utf-8 918.2572ms
+2025-02-10 15:24:39.453 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/google - application/json 1204
+2025-02-10 15:24:39.462 +05:30 [INF] CORS policy execution failed.
+2025-02-10 15:24:39.464 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-10 15:24:39.468 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:24:39.482 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:24:40.365 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 15:24:40.392 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 907.1539ms
+2025-02-10 15:24:40.396 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:24:40.401 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 's'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Infrastructure.Service.JwtService.GenerateToken(String userId, String role, String email, DateTime expiry, Boolean isAdmin) in C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Infrastructure\Service\JwtService.cs:line 71
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-10 15:24:40.464 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/google - 500 null text/plain; charset=utf-8 1021.5449ms
+2025-02-10 15:25:07.254 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/google - application/json 1204
+2025-02-10 15:25:07.273 +05:30 [INF] CORS policy execution failed.
+2025-02-10 15:25:07.274 +05:30 [INF] Request origin https://localhost:7059 does not have permission to access the resource.
+2025-02-10 15:25:07.279 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:25:07.280 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:26:27.885 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 15:26:27.899 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 80616.9332ms
+2025-02-10 15:26:27.901 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:26:27.903 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 's'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Infrastructure.Service.JwtService.GenerateToken(String userId, String role, String email, DateTime expiry, Boolean isAdmin) in C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Infrastructure\Service\JwtService.cs:line 71
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-10 15:26:27.927 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/google - 500 null text/plain; charset=utf-8 80673.4893ms
+2025-02-10 15:28:48.149 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7059/api/Auth/google - null null
+2025-02-10 15:28:48.155 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:28:48.158 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7059/api/Auth/google - 204 null null 10.4951ms
+2025-02-10 15:28:48.166 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7059/api/Auth/google - application/json 1197
+2025-02-10 15:28:48.170 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:28:48.238 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 15:28:48.246 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 15:28:48.247 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:28:48.249 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:28:48.258 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 15:28:48.294 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 43.0055ms
+2025-02-10 15:28:48.298 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:28:48.299 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7059/api/Auth/google - 400 null application/problem+json; charset=utf-8 133.5679ms
+2025-02-10 15:30:07.353 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:30:07.664 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:30:07.711 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:30:07.714 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:30:07.715 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:30:08.172 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 15:30:08.453 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 286.5475ms
+2025-02-10 15:30:08.541 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 15:30:08.548 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:30:08.553 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 12.4095ms
+2025-02-10 15:30:08.558 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.0184ms
+2025-02-10 15:30:08.564 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 15:30:08.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.1989ms
+2025-02-10 15:30:08.718 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 15:30:08.840 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 122.0648ms
+2025-02-10 15:30:47.010 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 25
+2025-02-10 15:30:47.020 +05:30 [INF] CORS policy execution failed.
+2025-02-10 15:30:47.021 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 15:30:47.024 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 15:30:47.130 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:30:47.152 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:30:51.786 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 15:30:51.796 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 4635.9647ms
+2025-02-10 15:30:51.799 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:30:51.801 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 401 null application/json; charset=utf-8 4790.1729ms
+2025-02-10 15:31:16.466 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - null null
+2025-02-10 15:31:16.474 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:31:16.477 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - 204 null null 15.891ms
+2025-02-10 15:31:16.487 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1197
+2025-02-10 15:31:16.499 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:31:16.535 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 15:31:16.556 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 15:31:16.559 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:31:16.560 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:31:16.566 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 15:31:16.582 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 19.1075ms
+2025-02-10 15:31:16.585 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:31:16.588 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/problem+json; charset=utf-8 101.1288ms
+2025-02-10 15:36:10.312 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - null null
+2025-02-10 15:36:10.317 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:36:10.319 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - 204 null null 8.0497ms
+2025-02-10 15:36:10.335 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1197
+2025-02-10 15:36:10.341 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:36:10.345 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 15:36:10.356 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 15:36:10.359 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:36:10.361 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:36:10.372 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 15:36:10.374 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 4.2839ms
+2025-02-10 15:36:10.376 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:36:10.378 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/problem+json; charset=utf-8 44.0306ms
+2025-02-10 15:36:57.742 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - null null
+2025-02-10 15:36:57.755 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:36:57.764 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - 204 null null 23.4245ms
+2025-02-10 15:36:57.775 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1197
+2025-02-10 15:36:57.780 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:36:57.782 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 15:36:57.789 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 15:36:57.792 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:36:57.794 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:36:57.801 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 15:36:57.804 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 3.7866ms
+2025-02-10 15:36:57.807 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:36:57.810 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/problem+json; charset=utf-8 34.6464ms
+2025-02-10 15:39:02.817 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - null null
+2025-02-10 15:39:02.827 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:39:02.830 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - 204 null null 12.9737ms
+2025-02-10 15:39:02.847 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1197
+2025-02-10 15:39:02.852 +05:30 [INF] CORS policy execution successful.
+2025-02-10 15:39:02.854 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 15:39:02.861 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 15:39:02.863 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:39:02.866 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 15:39:02.871 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 15:39:02.872 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 1.9613ms
+2025-02-10 15:39:02.875 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 15:39:02.877 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/problem+json; charset=utf-8 31.0369ms
+2025-02-10 15:54:12.172 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:54:12.591 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:54:12.661 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:54:12.663 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:54:12.664 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:54:13.975 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 15:54:14.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 264.658ms
+2025-02-10 15:54:14.263 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:54:14.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.6383ms
+2025-02-10 15:54:14.296 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 15:54:14.303 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 28.3605ms
+2025-02-10 15:54:14.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 15:54:14.398 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.5744ms
+2025-02-10 15:54:14.517 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 15:54:14.709 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 192.3346ms
+2025-02-10 15:57:12.921 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:57:13.223 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:57:13.280 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:57:13.282 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:57:13.284 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:57:13.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 15:57:14.074 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 418.0176ms
+2025-02-10 15:57:14.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:57:14.117 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 15:57:14.126 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 19.8316ms
+2025-02-10 15:57:14.137 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 19.6833ms
+2025-02-10 15:57:14.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 15:57:14.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.0129ms
+2025-02-10 15:57:14.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 15:57:14.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 229.671ms
+2025-02-10 15:59:17.589 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:59:17.850 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 15:59:17.923 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:59:17.926 +05:30 [INF] Hosting environment: Development
+2025-02-10 15:59:17.927 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 15:59:18.556 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 15:59:18.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 242.79ms
+2025-02-10 15:59:18.819 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 15:59:18.826 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 15:59:18.831 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.946ms
+2025-02-10 15:59:18.839 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 16.9107ms
+2025-02-10 15:59:18.860 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 15:59:18.906 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.6778ms
+2025-02-10 15:59:19.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 15:59:19.140 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.3958ms
+2025-02-10 16:00:10.091 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 16:00:10.104 +05:30 [INF] CORS policy execution failed.
+2025-02-10 16:00:10.106 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 16:00:10.110 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 16:00:10.211 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:00:10.233 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 16:00:11.599 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 16:00:11.633 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 1391.5859ms
+2025-02-10 16:00:11.637 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:00:11.642 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 's'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Infrastructure.Service.JwtService.GenerateToken(String userId, String role, String email, DateTime expiry, Boolean isAdmin) in C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Infrastructure\Service\JwtService.cs:line 71
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-10 16:00:11.687 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 500 null text/plain; charset=utf-8 1596.4348ms
+2025-02-10 16:04:39.962 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 16:04:40.208 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 16:04:40.260 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 16:04:40.262 +05:30 [INF] Hosting environment: Development
+2025-02-10 16:04:40.263 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 16:04:40.923 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 16:04:41.157 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 239.9347ms
+2025-02-10 16:04:41.189 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 16:04:41.196 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 16:04:41.199 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.7407ms
+2025-02-10 16:04:41.207 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 16.782ms
+2025-02-10 16:04:41.234 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 16:04:41.272 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.1427ms
+2025-02-10 16:04:41.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 16:04:41.506 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.966ms
+2025-02-10 16:04:46.522 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 25
+2025-02-10 16:04:46.533 +05:30 [INF] CORS policy execution failed.
+2025-02-10 16:04:46.534 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 16:04:46.537 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 16:04:46.659 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:04:46.680 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 16:04:47.276 +05:30 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 16:04:47.286 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 598.2813ms
+2025-02-10 16:04:47.289 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:04:47.291 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/json; charset=utf-8 768.659ms
+2025-02-10 16:04:58.049 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 16:04:58.056 +05:30 [INF] CORS policy execution failed.
+2025-02-10 16:04:58.057 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 16:04:58.061 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:04:58.063 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 16:04:59.060 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 16:04:59.078 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 1011.3455ms
+2025-02-10 16:04:59.084 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:04:59.090 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 's'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at Infrastructure.Service.JwtService.GenerateToken(String userId, String role, String email, DateTime expiry, Boolean isAdmin) in C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Infrastructure\Service\JwtService.cs:line 71
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-10 16:04:59.155 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 500 null text/plain; charset=utf-8 1106.7414ms
+2025-02-10 16:06:13.806 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 16:06:14.068 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 16:06:14.114 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 16:06:14.116 +05:30 [INF] Hosting environment: Development
+2025-02-10 16:06:14.118 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 16:06:14.513 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 16:06:14.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 309.9285ms
+2025-02-10 16:06:14.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 16:06:14.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 16:06:14.884 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 22.451ms
+2025-02-10 16:06:14.889 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 21.9835ms
+2025-02-10 16:06:14.917 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 16:06:14.975 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.3743ms
+2025-02-10 16:06:15.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 16:06:15.317 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 215.6244ms
+2025-02-10 16:06:25.374 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 16:06:25.384 +05:30 [INF] CORS policy execution failed.
+2025-02-10 16:06:25.386 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 16:06:25.391 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 16:06:25.500 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:06:25.521 +05:30 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 16:06:26.297 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-10 16:06:26.319 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLogin (Backend) in 789.1439ms
+2025-02-10 16:06:26.323 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLogin (Backend)'
+2025-02-10 16:06:26.326 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 200 null application/json; charset=utf-8 952.208ms
+2025-02-10 17:36:29.019 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 17:36:29.386 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 17:36:29.446 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 17:36:29.448 +05:30 [INF] Hosting environment: Development
+2025-02-10 17:36:29.449 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 17:36:30.210 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 17:36:30.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 300.3007ms
+2025-02-10 17:36:30.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 17:36:30.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 17:36:30.539 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.9942ms
+2025-02-10 17:36:30.547 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 12.7151ms
+2025-02-10 17:36:30.569 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 17:36:30.619 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.2494ms
+2025-02-10 17:36:30.718 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 17:36:30.936 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 217.9221ms
+2025-02-10 17:37:37.631 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 17:37:37.897 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 17:37:37.948 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 17:37:37.952 +05:30 [INF] Hosting environment: Development
+2025-02-10 17:37:37.953 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 17:37:38.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 17:37:38.802 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 395.4577ms
+2025-02-10 17:37:38.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 17:37:38.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 17:37:38.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.5669ms
+2025-02-10 17:37:38.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 19.5975ms
+2025-02-10 17:37:38.896 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 17:37:38.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.6712ms
+2025-02-10 17:37:39.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 17:37:39.341 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.2704ms
+2025-02-10 17:38:16.544 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 17:38:16.555 +05:30 [INF] CORS policy execution failed.
+2025-02-10 17:38:16.558 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 17:38:16.563 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 17:38:16.675 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:38:16.695 +05:30 [INF] Route matched with {action = "GoogleLoginCommand", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLoginCommand(Domain.Model.TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 17:38:17.573 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-02-10 17:38:17.583 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLoginCommand (Backend) in 880.7913ms
+2025-02-10 17:38:17.585 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:38:17.589 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 200 null application/json; charset=utf-8 1044.6423ms
+2025-02-10 17:39:26.216 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 17:39:26.230 +05:30 [INF] CORS policy execution failed.
+2025-02-10 17:39:26.231 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 17:39:26.235 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:39:26.272 +05:30 [INF] Route matched with {action = "GoogleLoginCommand", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLoginCommand(Domain.Model.TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 17:39:46.419 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-02-10 17:39:46.424 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLoginCommand (Backend) in 20147.0741ms
+2025-02-10 17:39:46.427 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:39:46.429 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 200 null application/json; charset=utf-8 20212.8096ms
+2025-02-10 17:40:04.012 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - null null
+2025-02-10 17:40:04.018 +05:30 [INF] CORS policy execution successful.
+2025-02-10 17:40:04.020 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5227/api/Auth/google - 204 null null 8.6052ms
+2025-02-10 17:40:04.036 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1197
+2025-02-10 17:40:04.040 +05:30 [INF] CORS policy execution successful.
+2025-02-10 17:40:04.075 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-02-10 17:40:04.095 +05:30 [INF] CustomAuth was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-02-10 17:40:04.097 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:40:04.098 +05:30 [INF] Route matched with {action = "GoogleLoginCommand", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLoginCommand(Domain.Model.TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 17:40:04.104 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-10 17:40:04.118 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLoginCommand (Backend) in 16.6849ms
+2025-02-10 17:40:04.120 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:40:04.121 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 400 null application/problem+json; charset=utf-8 84.9073ms
+2025-02-10 17:40:23.038 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 17:40:23.044 +05:30 [INF] CORS policy execution failed.
+2025-02-10 17:40:23.047 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 17:40:23.050 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:40:23.052 +05:30 [INF] Route matched with {action = "GoogleLoginCommand", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLoginCommand(Domain.Model.TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 17:41:59.628 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-02-10 17:41:59.634 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLoginCommand (Backend) in 96579.3703ms
+2025-02-10 17:41:59.640 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 17:41:59.643 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 200 null application/json; charset=utf-8 96605.528ms
+2025-02-10 18:40:28.465 +05:30 [INF] User profile is available. Using 'C:\Users\mayurramdham\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 18:40:28.927 +05:30 [INF] Now listening on: http://localhost:5227
+2025-02-10 18:40:29.005 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 18:40:29.008 +05:30 [INF] Hosting environment: Development
+2025-02-10 18:40:29.009 +05:30 [INF] Content root path: C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\Backend
+2025-02-10 18:40:29.724 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.html - null null
+2025-02-10 18:40:30.013 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.html - 200 null text/html;charset=utf-8 294.8718ms
+2025-02-10 18:40:30.038 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-10 18:40:30.044 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/index.js - null null
+2025-02-10 18:40:30.048 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.2048ms
+2025-02-10 18:40:30.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/index.js - 200 null application/javascript;charset=utf-8 11.8417ms
+2025-02-10 18:40:30.080 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/_vs/browserLink - null null
+2025-02-10 18:40:30.133 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.2784ms
+2025-02-10 18:40:30.232 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - null null
+2025-02-10 18:40:30.356 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5227/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.4248ms
+2025-02-10 18:40:38.218 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5227/api/Auth/google - application/json 1204
+2025-02-10 18:40:38.229 +05:30 [INF] CORS policy execution failed.
+2025-02-10 18:40:38.232 +05:30 [INF] Request origin http://localhost:5227 does not have permission to access the resource.
+2025-02-10 18:40:38.234 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-10 18:40:38.346 +05:30 [INF] Executing endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 18:40:38.372 +05:30 [INF] Route matched with {action = "GoogleLoginCommand", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLoginCommand(Domain.Model.TokenRequest) on controller Backend.Controllers.AuthController (Backend).
+2025-02-10 18:41:21.267 +05:30 [INF] Executing OkObjectResult, writing value of type 'Domain.Model.ResponseDto'.
+2025-02-10 18:41:21.278 +05:30 [INF] Executed action Backend.Controllers.AuthController.GoogleLoginCommand (Backend) in 42897.885ms
+2025-02-10 18:41:21.282 +05:30 [INF] Executed endpoint 'Backend.Controllers.AuthController.GoogleLoginCommand (Backend)'
+2025-02-10 18:41:21.285 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5227/api/Auth/google - 200 null application/json; charset=utf-8 43067.2785ms

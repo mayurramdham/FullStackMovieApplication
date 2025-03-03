@@ -1,0 +1,138 @@
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Mayur\DotNetAssesmentMain\Common\Assesment_6\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\Movie_ApplicationZip\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\MovieFullStack\Backend\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\Mayur Ramdham\Desktop\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Downloads\MovieFullStackApplicationFinal\MovieFullStackApplication\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_10\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\mayurramdham\Desktop\SmartData\Assesment\Assesment_8MovieApplication\MayurRamdham\MovieFullStackApplication\Backend\Movie_Application\App.Core\obj\Debug\net8.0\ref\App.Core.dll
